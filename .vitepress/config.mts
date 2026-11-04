@@ -26,6 +26,7 @@ export default defineConfig({
       { text: 'Guides', link: '/docs/guides/getting-started', activeMatch: '/docs/' },
       { text: 'FAQ', link: '/docs/faq' },
       { text: 'Changelog', link: '/changelogs' },
+      { text: 'Contact', link: '/contact' },
     ],
     sidebar: {
       '/docs/': [
@@ -57,7 +58,7 @@ export default defineConfig({
     },
     footer: {
       message:
-        '<a href="https://sstp-shield-server.vercel.app/privacy">Privacy Policy</a> · <a href="https://sstp-shield-server.vercel.app/terms">Terms of Service</a> · <a href="mailto:sstp.pinger@gmail.com">Contact</a>',
+        '<a href="https://sstp-shield-server.vercel.app/privacy">Privacy Policy</a> · <a href="https://sstp-shield-server.vercel.app/terms">Terms of Service</a> · <a href="/contact">Contact</a>',
       copyright: 'SSTP Shield — a VPN client for SSTP and SoftEther servers.',
     },
   },

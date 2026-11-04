@@ -104,3 +104,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+.vp-doc .contact-mail a {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 24px;
+  background: var(--vp-c-brand-3);
+  color: var(--vp-c-white);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.vp-doc .contact-mail a:hover {
+  opacity: 0.88;
+}
