@@ -45,3 +45,32 @@ features:
     title: No traffic logging
     details: The service only manages your subscription. It is never in the path of your VPN traffic.
 ---
+
+<div class="shots-section">
+
+## See it in action
+
+<div class="shots">
+  <figure class="wide">
+    <a href="/screenshots/connected.png"><img src="/screenshots/connected.png" alt="Connected: the exit IP, country, DNS and IPv6 status of the tunnel" loading="lazy"></a>
+    <figcaption>Connected — exactly what is protected, and what is not</figcaption>
+  </figure>
+  <figure>
+    <a href="/screenshots/simple.png"><img src="/screenshots/simple.png" alt="Simple mode: one Disconnect button while protected" loading="lazy"></a>
+    <figcaption>Simple mode — one button</figcaption>
+  </figure>
+  <figure>
+    <a href="/screenshots/servers.png"><img src="/screenshots/servers.png" alt="The server list, sorted by measured latency" loading="lazy"></a>
+    <figcaption>Servers, fastest first</figcaption>
+  </figure>
+  <figure>
+    <a href="/screenshots/connecting.png"><img src="/screenshots/connecting.png" alt="Connecting: every step of the handshake as it happens" loading="lazy"></a>
+    <figcaption>Every connection step, live</figcaption>
+  </figure>
+  <figure>
+    <a href="/screenshots/sharing.png"><img src="/screenshots/sharing.png" alt="Proxy sharing: the address other devices use" loading="lazy"></a>
+    <figcaption>Share the tunnel with your other devices</figcaption>
+  </figure>
+</div>
+
+</div>

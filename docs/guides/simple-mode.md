@@ -3,6 +3,8 @@
 New installs open in Simple mode: a status line, one big **Connect** button,
 and a settings button in the top-right corner. Nothing to choose.
 
+<img class="screenshot" src="/screenshots/simple.png" alt="Simple mode while connected: Protected, the country and time, Disconnect and Try another server">
+
 ## Connecting
 
 - **Connect** finds the fastest server and keeps the connection working. It
