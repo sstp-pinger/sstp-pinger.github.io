@@ -44,6 +44,17 @@ From the command line: `sstp-shield-cli account activate <code>`.
 Subscribe with USDT on BEP20 or TRC20 from the **Unlock** screen, or with
 `sstp-shield-cli account subscribe`. No card or bank is needed.
 
+1. Pick a plan and a network. The app shows the **exact amount** to send,
+   for example 3.0137 USDT. It is only for you: that is how the payment is
+   matched to your account.
+2. Send exactly that amount to the address shown. If your exchange takes its
+   fee out of what you send, add the fee so the exact amount arrives.
+3. Paste the transaction hash and press **Verify payment**.
+
+The amount stays reserved for 48 hours. Sent a different amount by mistake?
+Write to [sstp.pinger@gmail.com](mailto:sstp.pinger@gmail.com) with the
+transaction hash. From 3.7 on; older versions must update to pay.
+
 ### Can I use my access on another device?
 
 `sstp-shield-cli account link` gives an activation code that unlocks another

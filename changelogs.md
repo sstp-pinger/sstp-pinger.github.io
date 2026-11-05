@@ -8,7 +8,18 @@ outline: [2, 2]
 What changed in each version. Downloads for every version are on the
 [releases page](https://github.com/sstp-pinger/sstp_shield_releases/releases).
 
-## 3.6.6 <Badge type="tip" text="latest" />
+## 3.7.0 <Badge type="tip" text="latest" />
+
+<small>November 5, 2026</small>
+
+- **New:** USDT payments use an exact amount that is only yours, for example
+  3.0137 USDT. It is how the payment is matched to your account, so nobody
+  else can claim it. Older versions must update to pay.
+- **Fixed:** BEP20 payments could not be verified.
+- **Fixed:** on Windows computers with more than one network adapter, SSTP
+  could drop every connection about 10 seconds after connecting.
+
+## 3.6.6
 
 <small>November 4, 2026</small>
 
