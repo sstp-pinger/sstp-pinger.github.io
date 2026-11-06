@@ -102,7 +102,9 @@ In full-tunnel mode the app points `systemd-resolved` at 1.1.1.1 and 8.8.8.8
 through the tunnel, so name lookups don't leak to your local network, and puts
 your DNS back on disconnect. The `.deb`, the Arch package and the setup script
 all install a polkit rule so this works without a password prompt for
-whoever is logged in at the computer.
+whoever is logged in at the computer. From 3.7.2 the `.deb` and the Arch
+package also allow admin users (the `sudo` or `wheel` group), so it works
+when you connect over SSH too.
 
 ::: warning Updating the tarball from 3.5 or older?
 Run `setup_privilege.sh` once more to get the DNS rule. Until then the app

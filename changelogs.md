@@ -8,7 +8,28 @@ outline: [2, 2]
 What changed in each version. Downloads for every version are on the
 [releases page](https://github.com/sstp-pinger/sstp_shield_releases/releases).
 
-## 3.7.0 <Badge type="tip" text="latest" />
+## 3.7.2 <Badge type="tip" text="latest" />
+
+<small>November 6, 2026</small>
+
+- **New (CLI):** while connected, press **r** to download a fresh server list
+  through the tunnel, and **u** to download a newer version.
+- **Fixed (Linux):** connected over SSH, DNS stayed with your local network,
+  so blocked sites still did not resolve. Admin users (`sudo` or `wheel`)
+  may now point DNS at the tunnel from SSH too.
+
+## 3.7.1
+
+<small>November 6, 2026</small>
+
+- **Fixed (Linux):** connecting over SSH froze the SSH session once the
+  tunnel came up. Replies to SSH and to proxy-sharing clients now leave
+  through your normal network.
+- **Fixed (Linux):** after a connection was killed, every later connect to
+  the same server failed ("File exists").
+- **Fixed (Linux):** DNS did not go through the VPN on Ubuntu 24.04.
+
+## 3.7.0
 
 <small>November 5, 2026</small>
 
