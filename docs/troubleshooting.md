@@ -24,6 +24,9 @@
 |---------|-----|
 | "needs CAP_NET_ADMIN" | `.deb` or Arch package: reinstall it. Tarball: run `./tool/setup_privilege.sh ./sstp_shield` (no `sudo`), then launch `./sstp-vpn`. |
 | "DNS is NOT going through the VPN" | `.deb`: install `systemd-resolved` and `polkitd`. Arch: install `polkit` and enable `systemd-resolved`. Tarball: run `./tool/setup_privilege.sh ./sstp_shield` again to install the DNS rule (needs the same two). |
+| Linux over SSH: connected, but blocked sites resolve to `127.0.0.1` | DNS is still your network's. Update to 3.7.2 or newer: its `.deb` and Arch package let admin users (`sudo` or `wheel` group) set the tunnel's DNS from SSH. Check with `resolvectl status sstp0`: it should list 1.1.1.1 and 8.8.8.8. |
+| Linux over SSH: the session freezes while connecting | Update to 3.7.1 or newer, which keeps replies to SSH outside the tunnel. |
+| Linux: every connect fails with "File exists" | A route left by a connection that was killed. 3.7.1 and newer take it over; on older versions run `sudo ip route del <server address>/32`. |
 | WSL: DNS warning about `10.255.255.254` | WSL writes its own resolver. Set `generateResolvConf=false` in `/etc/wsl.conf` and link `/etc/resolv.conf` to systemd-resolved's stub. |
 
 ## Sending a log

@@ -69,6 +69,6 @@ See the [changelog](/changelogs) for what changed.
 
 ::: tip GitHub blocked where you are?
 In-app updates fall back to a jsDelivr mirror by themselves (from 3.6.3). For
-the first install, download the file on a network that can reach GitHub, or
-ask someone to send it to you.
+the first install, take the file from the mirror by hand: see
+[Downloading from the mirror by hand](/docs/guides/updates#downloading-from-the-mirror-by-hand).
 :::
