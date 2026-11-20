@@ -8,6 +8,11 @@ Questions, problems, payments or feedback — write to:
 
 <p class="contact-mail"><a href="mailto:sstp.pinger@gmail.com">sstp.pinger@gmail.com</a></p>
 
+Or reach us on Telegram:
+
+<p class="contact-mail"><a href="https://t.me/sstp_shield_softether">Telegram channel</a></p>
+<p class="contact-mail"><a href="https://t.me/sstp_shield">Telegram</a></p>
+
 ## Reporting a problem
 
 To get an answer faster, include:

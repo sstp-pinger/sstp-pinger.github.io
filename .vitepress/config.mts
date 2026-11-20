@@ -2,6 +2,12 @@ import { defineConfig } from 'vitepress'
 
 const releases = 'https://github.com/sstp-pinger/sstp_shield_releases'
 
+// VitePress's built-in socialLinks icon set has no "telegram" entry, so it's
+// supplied as inline SVG instead (the standard Telegram glyph).
+const telegramIcon = {
+  svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.94 8.14-1.89 8.908c-.142.638-.512.796-1.038.496l-2.87-2.117-1.384 1.332c-.153.153-.28.28-.573.28l.204-2.898 5.27-4.76c.23-.204-.05-.318-.356-.114l-6.51 4.1-2.804-.878c-.61-.19-.622-.61.127-.903l10.95-4.22c.508-.19.953.114.788.904z"/></svg>',
+}
+
 export default defineConfig({
   title: 'SSTP Shield',
   description:
@@ -50,7 +56,19 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: 'github', link: releases }],
+    socialLinks: [
+      { icon: 'github', link: releases },
+      {
+        icon: telegramIcon,
+        link: 'https://t.me/sstp_shield_softether',
+        ariaLabel: 'Telegram channel',
+      },
+      {
+        icon: telegramIcon,
+        link: 'https://t.me/sstp_shield',
+        ariaLabel: 'Telegram',
+      },
+    ],
     search: { provider: 'local' },
     editLink: {
       pattern: 'https://github.com/sstp-pinger/sstp-pinger.github.io/edit/main/:path',
