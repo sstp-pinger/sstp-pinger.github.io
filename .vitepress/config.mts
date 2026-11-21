@@ -21,7 +21,6 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/app_icon.png' }],
     ['meta', { name: 'theme-color', content: '#2f6fed' }],
     ['meta', { name: 'google-site-verification', content: 'iZbCjkFuRR9iXPb-g7Bpf29MBj8Va9Um26fLOK4abmM' }],
-    ['meta', { name: 'google-site-verification', content: '_OSifUR_fGq7AMN9vB7fG1dxjwCcrU3Xh2a5PwwYkdQ' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'SSTP Shield' }],
     ['meta', { property: 'og:image', content: 'https://sstp-pinger.github.io/app_icon.png' }],
