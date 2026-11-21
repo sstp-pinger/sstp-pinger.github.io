@@ -8,7 +8,53 @@ outline: [2, 2]
 What changed in each version. Downloads for every version are on the
 [releases page](https://github.com/sstp-pinger/sstp_shield_releases/releases).
 
-## 3.7.2 <Badge type="tip" text="latest" />
+## 3.8.1 <Badge type="tip" text="latest" />
+
+<small>November 21, 2026</small>
+
+- **New:** **invite a friend.** Share your link from **Unlock → Invite a
+  friend**. When your friend joins our Telegram channel and gives the bot
+  their username, you get **+7 days** and their free trial gets **+3 days**.
+  See [Invite friends](/docs/guides/invite-friends).
+- **New:** a **Connect button on every server** in the list. One press selects
+  the server and connects; the server you are connected to is highlighted.
+- **New:** **Settings is redesigned** — one page of sections (Account,
+  Connection, Servers, Troubleshoot, Appearance, About) instead of tabs, with
+  short hints and the full explanation one tap away. On a wide window it uses
+  two columns. Advanced timing and Theme open as their own pages.
+- **New:** **notifications** — a reminder before your access runs out, an
+  alert when an update is available, and messages from us.
+- **Changed:** paying with USDT now happens in our **Telegram bot**. **Unlock →
+  Subscribe with USDT** opens it; the bot hands back an activation code to
+  paste in the app. Older versions can still pay in-app until they update.
+- **Changed:** the **Username** is under **Settings → Account**, with a copy
+  button.
+- **Changed:** the server tabs turn into icons when the window is narrow,
+  every page uses the same margin, and the Administrator notice on the
+  Connection screen is gone (Windows still asks when it needs to).
+- **Fixed (Linux):** the *Building the network adapter* and *Pointing your
+  traffic through* steps now fill in on the connection progress bar.
+- **Fixed (Android):** 3.8.0 had no Android build; 3.8.1 has all platforms.
+
+## 3.8.0
+
+<small>November 21, 2026</small>
+
+Windows and Linux only — the Android build failed. Use 3.8.1, which has
+everything above for every platform.
+
+## 3.7.3
+
+<small>November 20, 2026</small>
+
+- **New:** a **custom DNS server** in Settings. Leave it empty to use the VPN
+  server's own DNS.
+- **New:** **Support & contact** in Settings, with links to the Telegram
+  channel, the operator and email.
+- **Changed:** pings always make the same TLS handshake the tunnel will, so a
+  server that answers will really connect. The fast TCP-only mode is gone.
+
+## 3.7.2
 
 <small>November 6, 2026</small>
 

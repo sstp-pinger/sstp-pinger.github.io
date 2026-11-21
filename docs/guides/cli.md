@@ -82,7 +82,7 @@ settings as in the app:
 | Key | Values |
 |---|---|
 | `protocol` | `sstp`, `softether` |
-| `ping-mode` | `accurate` (TLS handshake), `fast` (TCP connect) |
+| `custom-dns` | an IP address, or empty to clear |
 | `ping-timeout` | 500–8000 ms |
 | `ping-batch` | 1–1000 servers at once |
 | `fetch-count` | 50–5000 servers per refresh |

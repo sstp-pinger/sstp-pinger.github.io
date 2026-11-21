@@ -1,5 +1,7 @@
 ---
 layout: home
+title: SSTP Shield — a free-to-try VPN client for SSTP and SoftEther
+titleTemplate: false
 
 hero:
   name: SSTP Shield
@@ -34,7 +36,10 @@ features:
     details: Once connected, other devices on your Wi-Fi can use the tunnel through one HTTP and SOCKS5 port.
   - icon: 💸
     title: Anonymous payment
-    details: After the trial, use an activation code or subscribe with USDT (BEP20 or TRC20). No card, no bank.
+    details: After the trial, use an activation code or subscribe with USDT (BEP20 or TRC20) through our Telegram bot. No card, no bank.
+  - icon: 🎁
+    title: Invite friends, get free days
+    details: Share your link. When a friend joins our Telegram channel you get +7 days and their trial gets +3.
   - icon: 💻
     title: Command line too
     details: Windows and Linux ship sstp-shield-cli — connect, measure servers and manage your access without the window.

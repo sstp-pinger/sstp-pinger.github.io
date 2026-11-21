@@ -17,7 +17,8 @@ all that identify your access.
 ### Is it free?
 
 A new install starts a free trial by itself. After that, access is by
-activation code or a USDT subscription.
+activation code or a USDT subscription. You can also earn free days by
+[inviting friends](/docs/guides/invite-friends).
 
 ### Does it log my traffic?
 
@@ -41,19 +42,30 @@ From the command line: `sstp-shield-cli account activate <code>`.
 
 ### How do I pay?
 
-Subscribe with USDT on BEP20 or TRC20 from the **Unlock** screen, or with
-`sstp-shield-cli account subscribe`. No card or bank is needed.
+Subscribe with USDT on BEP20 or TRC20 in our Telegram bot,
+[@sstp_shield_bot](https://t.me/sstp_shield_bot). In the app, **Unlock →
+Subscribe with USDT** opens it. No card or bank is needed.
 
-1. Pick a plan and a network. The app shows the **exact amount** to send,
-   for example 3.0137 USDT. It is only for you: that is how the payment is
-   matched to your account.
-2. Send exactly that amount to the address shown. If your exchange takes its
-   fee out of what you send, add the fee so the exact amount arrives.
-3. Paste the transaction hash and press **Verify payment**.
+1. In the bot, choose your language and send your **username** (in the app:
+   **Settings → Account → Username**, with a copy button).
+2. Pick a plan and a network. The bot shows the **exact amount** to send, for
+   example 3.0137 USDT, and the address. The amount is only for you: that is
+   how the payment is matched to your account. Tap either one to copy it.
+3. Send exactly that amount. If your exchange takes its fee out of what you
+   send, add the fee so the exact amount arrives.
+4. Send the bot the transaction hash. It verifies the transfer and replies
+   with an **activation code**.
+5. Paste the code in the app under **Unlock → Use an activation code**.
 
 The amount stays reserved for 48 hours. Sent a different amount by mistake?
 Write to [sstp.pinger@gmail.com](mailto:sstp.pinger@gmail.com) with the
-transaction hash. From 3.7 on; older versions must update to pay.
+transaction hash. `sstp-shield-cli account subscribe` shows these steps too.
+
+### Can I get free days?
+
+Yes — [invite a friend](/docs/guides/invite-friends). When they join our
+Telegram channel and give the bot their username, you get **+7 days** and their
+free trial gets **+3 days**.
 
 ### Can I use my access on another device?
 

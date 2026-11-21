@@ -27,6 +27,7 @@ subscribe with USDT — see [Access and payment](/docs/faq#access-and-payment).
 
 - From Simple mode: tap the settings button (top right) →
   **Switch to professional view**.
-- From the professional view: **Settings → Look → View → Simple**.
+- From the professional view: **Settings → Appearance → View → Simple**. A
+  message offers **Undo** if you change your mind.
 
 Updating from a version older than 3.5 keeps the professional view.

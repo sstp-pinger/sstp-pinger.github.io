@@ -9,13 +9,20 @@ On the **Unlock** screen you can:
 
 - start the free trial,
 - paste an activation code, or load the code file,
-- subscribe with USDT (BEP20 or TRC20).
+- subscribe with USDT (BEP20 or TRC20) — this opens our Telegram bot, which
+  sends back an activation code,
+- [invite a friend](./invite-friends) for free days.
 
 ## Picking a server
 
-Browse the **Servers**, **Bookmarks** and **Recents** tabs. The header shows
-how many servers are available and how many are reachable right now. The
-view-mode toggle switches between a grouped list and a flat, sorted one.
+Browse the **Servers**, **Bookmarks** and **Recents** tabs. When the window is
+narrow they turn into icons. The header shows how many servers are available
+and how many are reachable right now. The view-mode toggle switches between a
+grouped list and a flat, sorted one.
+
+**Every server has a Connect button** (the `>` at its right edge): one press
+selects that server and connects. The server you are connected to has its
+button filled in. Tapping the rest of the row only selects it.
 
 <img class="screenshot" src="/screenshots/servers.png" alt="The server list with measured latency, bookmarks and recents tabs">
 
@@ -32,8 +39,8 @@ saved list stays and a note says so.
 offers **Ping N live**, which measures again only the servers that answered
 last time. A running ping can be stopped.
 
-In Settings, **ping mode** chooses between *accurate* (a full TLS handshake)
-and *fast* (a TCP connect only).
+Ping always makes the same TLS handshake the tunnel will, so a server that
+passes will actually connect.
 
 <img class="screenshot" src="/screenshots/settings.png" alt="Settings: how servers are found and measured">
 
@@ -58,24 +65,35 @@ address for proxy sharing.
 
 ## Reconnection
 
-Set a retry count and interval in Settings to recover dropped tunnels by
-themselves. A count of 0 turns reconnecting off.
+Set a retry count and interval in **Settings → Troubleshoot → Advanced
+timing** to recover dropped tunnels by themselves. A count of 0 turns
+reconnecting off.
 
 ## Protocol <Badge type="info" text="desktop" />
 
-Choose **SSTP** or **SoftEther** in a profile's settings. Android is SSTP-only,
-so the option is hidden there. SoftEther on Windows needs the official
+Choose **SSTP** or **SoftEther** in **Settings → Connection**. Android is
+SSTP-only, so the option is hidden there. SoftEther on Windows needs the official
 [SoftEther VPN Client](https://www.softether-download.com/).
 
 ## Proxy sharing
 
 While connected, other devices on the same local network can use your tunnel.
 The app opens one port that speaks both HTTP and SOCKS5 and shows the address
-to enter on the other device. Turn it off in Settings.
+to enter on the other device. Turn it on or off in **Settings → Connection →
+Share with other devices**.
 
 <img class="screenshot" src="/screenshots/sharing.png" alt="Sharing: the proxy address for other devices on the network">
 
 ## Looks
 
-**Settings → Look** has several themes, grouped into editor favourites and
-easy-on-the-eyes papers.
+**Settings → Appearance → Theme** has several themes, grouped into editor
+favourites and easy-on-the-eyes papers.
+
+## Settings
+
+Settings is one page of sections — **Account**, **Connection**, **Servers**,
+**Troubleshoot**, **Appearance** and **About** — with a short hint under each
+setting. Tap a setting's name to read what it does. Less-used options sit on
+their own pages: **Advanced timing** (auto-switch and reconnect) and **Theme**.
+You can set a **custom DNS server** under **Connection**; leave it empty to use
+the VPN server's own DNS.

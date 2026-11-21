@@ -17,8 +17,8 @@ Or reach us on Telegram:
 
 To get an answer faster, include:
 
-- your platform and version (Android, Windows or Linux; **Settings → This
-  device** shows the app version),
+- your platform and version (Android, Windows or Linux; **Settings → About**
+  shows the app version),
 - what you did and what happened,
 - the log, if the app misbehaved — see
   [Sending a log](/docs/troubleshooting#sending-a-log).

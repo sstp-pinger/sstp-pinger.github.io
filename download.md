@@ -37,8 +37,8 @@ Every button downloads the newest version. Check the
 
 ## Which Android APK?
 
-The universal APK (about 50 MB) works everywhere. The smaller per-ABI files
-(about 20 MB) each fit one kind of processor:
+The universal APK (about 54 MB) works everywhere. The smaller per-ABI files
+(17–21 MB) each fit one kind of processor:
 
 | File | For |
 |------|-----|
