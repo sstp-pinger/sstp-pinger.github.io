@@ -20,8 +20,10 @@ The server list refreshes by itself every 12 hours while you are connected.
 
 ## When the trial ends
 
-One screen says so, with a **Get access** button. Use an activation code or
-subscribe with USDT — see [Access and payment](/docs/faq#access-and-payment).
+One screen says so, with a **Get access** button. Keep the
+[free plan](./free-plan) by joining our channel or with a friend's invite
+code, use an activation code, or subscribe with Telegram Stars or USDT — see
+[Access and payment](/docs/faq#access-and-payment).
 
 ## Switching view
 

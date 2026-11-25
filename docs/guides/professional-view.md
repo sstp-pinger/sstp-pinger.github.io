@@ -5,12 +5,13 @@ from [Simple mode](./simple-mode#switching-view).
 
 ## Activating
 
-On the **Unlock** screen you can:
+On the **Subscription** screen you can:
 
 - start the free trial,
+- keep the [free plan](./free-plan) after it — **Free forever**,
 - paste an activation code, or load the code file,
-- subscribe with USDT (BEP20 or TRC20) — this opens our Telegram bot, which
-  sends back an activation code,
+- subscribe with Telegram Stars or USDT — this opens our Telegram bot,
+- type a friend's invite code, or a promo code,
 - [invite a friend](./invite-friends) for free days.
 
 ## Picking a server

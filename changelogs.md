@@ -8,7 +8,30 @@ outline: [2, 2]
 What changed in each version. Downloads for every version are on the
 [releases page](https://github.com/sstp-pinger/sstp_shield_releases/releases).
 
-## 3.8.1 <Badge type="tip" text="latest" />
+## 3.9.0 <Badge type="tip" text="latest" />
+
+<small>November 25, 2026</small>
+
+- **New:** a **[free plan](/docs/guides/free-plan)** after the trial. Join our
+  Telegram channel (or use a friend's invite code) and keep your own set of
+  10 servers a day, for free. If Telegram only opens through a VPN, the app
+  can connect you for 10 minutes once a day so you can join.
+- **New:** pay with **Telegram Stars** — 150 Stars a month, renewed by
+  Telegram until you cancel. USDT works as before; BEP20 has the lowest fee.
+- **New:** **invite codes.** A friend can type your code in the app — no
+  Telegram needed — and gets **+7 days** and the free plan. You get days once
+  they use the app, and again when they first subscribe. See
+  [Invite friends](/docs/guides/invite-friends).
+- **New:** **promo codes** under **Subscription → Have a promo code?**.
+- **New:** **Russian.** The whole app is now in English and Russian; it
+  follows your device language, or pick one in **Settings → Appearance**.
+- **New (desktop):** connect to **your own server** straight from the
+  Connection screen.
+- **Changed:** **Unlock** is now **Subscription**, and proxy sharing is
+  called **Proxy** everywhere.
+- **Changed:** the diagnostic log opens at the newest lines and updates live.
+
+## 3.8.1
 
 <small>November 21, 2026</small>
 

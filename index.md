@@ -34,12 +34,15 @@ features:
   - icon: 📡
     title: Proxy sharing
     details: Once connected, other devices on your Wi-Fi can use the tunnel through one HTTP and SOCKS5 port.
+  - icon: 🆓
+    title: Free plan after the trial
+    details: Join our Telegram channel, or use a friend's code, and keep a smaller set of servers for free — forever.
   - icon: 💸
     title: Anonymous payment
-    details: After the trial, use an activation code or subscribe with USDT (BEP20 or TRC20) through our Telegram bot. No card, no bank.
+    details: Subscribe with Telegram Stars or USDT through our Telegram bot, or use an activation code. No card, no bank.
   - icon: 🎁
     title: Invite friends, get free days
-    details: Share your link. When a friend joins our Telegram channel you get +7 days and their trial gets +3.
+    details: Your friend gets +7 days and the free plan at once; you get days when they use the app and when they subscribe.
   - icon: 💻
     title: Command line too
     details: Windows and Linux ship sstp-shield-cli — connect, measure servers and manage your access without the window.
@@ -47,8 +50,8 @@ features:
     title: Updates itself
     details: New versions install from inside the app, with a jsDelivr mirror where GitHub is blocked.
   - icon: 🔒
-    title: No traffic logging
-    details: The service only manages your subscription. It is never in the path of your VPN traffic.
+    title: Never in your traffic
+    details: Our service only manages your subscription and is never in the path of your VPN traffic. (The volunteer servers themselves keep logs — see the FAQ.)
 ---
 
 <div class="shots-section">

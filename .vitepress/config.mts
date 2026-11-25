@@ -15,7 +15,7 @@ const descriptions: Record<string, string> = {
   'contact.md':
     'Contact SSTP Shield: email and Telegram for questions, problems, payments and feedback.',
   'docs/faq.md':
-    'Answers about SSTP Shield: is it free, how to pay with USDT, how to activate a code, which protocol to use, and what it logs.',
+    'Answers about SSTP Shield: is it free, the free plan, paying with Stars or USDT, activating a code, promo codes, and what is logged.',
   'docs/requirements.md':
     'SSTP Shield system requirements for Android 7+, Windows 10/11 and Linux (glibc 2.39+), plus the permissions the app needs.',
   'docs/troubleshooting.md':
@@ -26,6 +26,8 @@ const descriptions: Record<string, string> = {
     'Simple mode in SSTP Shield: one button that picks a fast server, checks pages really load, and switches servers by itself.',
   'docs/guides/professional-view.md':
     'The SSTP Shield professional view: server list and ping, bookmarks, auto-switch, reconnection, SoftEther, proxy sharing, custom DNS and themes.',
+  'docs/guides/free-plan.md':
+    'The SSTP Shield free plan: keep a daily set of servers for free after the trial by joining our Telegram channel or with a friend\'s invite code.',
   'docs/guides/updates.md':
     'How SSTP Shield updates itself on Android, Windows and Linux, including the jsDelivr mirror for networks that block GitHub.',
   'docs/guides/cli.md':
@@ -117,6 +119,7 @@ export default defineConfig({
             { text: 'Getting started', link: '/docs/guides/getting-started' },
             { text: 'Simple mode', link: '/docs/guides/simple-mode' },
             { text: 'Professional view', link: '/docs/guides/professional-view' },
+            { text: 'Free plan', link: '/docs/guides/free-plan' },
             { text: 'Invite friends', link: '/docs/guides/invite-friends' },
             { text: 'Updates', link: '/docs/guides/updates' },
             { text: 'Command-line tool', link: '/docs/guides/cli' },

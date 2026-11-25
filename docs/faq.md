@@ -16,16 +16,31 @@ all that identify your access.
 
 ### Is it free?
 
-A new install starts a free trial by itself. After that, access is by
-activation code or a USDT subscription. You can also earn free days by
+A new install starts a free trial by itself. After it, you can stay on the
+[free plan](/docs/guides/free-plan) — a smaller set of servers, for free, by
+joining our Telegram channel or with a friend's invite code — or subscribe
+with Telegram Stars or USDT for everything. You can also earn free days by
 [inviting friends](/docs/guides/invite-friends).
 
 ### Does it log my traffic?
 
-No. The SSTP Shield service only manages your access and the server list. It
-is never in the path of your VPN traffic, which goes straight to the VPN
-server you connect to. See the
+Our service doesn't. It only manages your access and the server list and is
+never in the path of your VPN traffic, which goes straight to the VPN server
+you connect to.
+
+The **VPN Gate servers do keep logs**, by the project's own
+[policy](https://www.vpngate.net/en/about_abuse.aspx): connection logs for at
+least three months and packet headers for at least two weeks, which can be
+handed to authorities under legal procedures. So nobody can honestly promise
+"no logs" on those servers. See our
 [Privacy Policy](https://sstp-shield-server.vercel.app/privacy).
+
+### What does a subscription pay for?
+
+VPN Gate's servers are run by volunteers of a non-profit academic project; a
+subscription doesn't buy them. It pays for the app, for our measuring and
+curating which servers work on your network, for instant auto-switch, and for
+support.
 
 ### Is the source code available?
 
@@ -36,26 +51,35 @@ holds the downloads and documentation only.
 
 ### How do I activate a code?
 
-In the professional view, open the **Unlock** screen and paste the code, or
+In the professional view, open the **Subscription** screen and paste the code, or
 load the code file. In Simple mode, press **Get access** when the trial ends.
 From the command line: `sstp-shield-cli account activate <code>`.
 
 ### How do I pay?
 
-Subscribe with USDT on BEP20 or TRC20 in our Telegram bot,
-[@sstp_shield_bot](https://t.me/sstp_shield_bot). In the app, **Unlock →
-Subscribe with USDT** opens it. No card or bank is needed.
+In our Telegram bot, [@sstp_shield_bot](https://t.me/sstp_shield_bot). In the
+app, **Subscription → Subscribe with Stars or USDT** opens it. No card or bank
+is needed.
+
+**With Telegram Stars** — 150 Stars a month, renewed by Telegram every 30 days
+until you cancel it (Telegram → Settings → My Stars). Your account is extended
+right away; the bot also sends an activation code in case the app already says
+your access ended.
+
+**With USDT** (BEP20 or TRC20):
 
 1. In the bot, choose your language and send your **username** (in the app:
    **Settings → Account → Username**, with a copy button).
-2. Pick a plan and a network. The bot shows the **exact amount** to send, for
+2. Pick a plan and a network. **BEP20** has the lowest fee (about $0.10);
+   TRC20 is offered from 6 months, because its fee (about $2) is most of a
+   one-month price. The bot shows the **exact amount** to send, for
    example 3.0137 USDT, and the address. The amount is only for you: that is
    how the payment is matched to your account. Tap either one to copy it.
 3. Send exactly that amount. If your exchange takes its fee out of what you
    send, add the fee so the exact amount arrives.
 4. Send the bot the transaction hash. It verifies the transfer and replies
    with an **activation code**.
-5. Paste the code in the app under **Unlock → Use an activation code**.
+5. Paste the code in the app under **Subscription → Use an activation code**.
 
 The amount stays reserved for 48 hours. Sent a different amount by mistake?
 Write to [sstp.pinger@gmail.com](mailto:sstp.pinger@gmail.com) with the
@@ -63,9 +87,20 @@ transaction hash. `sstp-shield-cli account subscribe` shows these steps too.
 
 ### Can I get free days?
 
-Yes — [invite a friend](/docs/guides/invite-friends). When they join our
-Telegram channel and give the bot their username, you get **+7 days** and their
-free trial gets **+3 days**.
+Yes — [invite a friend](/docs/guides/invite-friends). Your friend gets
+**+7 days** at once; you get days once they really use the app, and again when
+they first subscribe.
+
+### Do you have promo codes?
+
+Sometimes — in our [Telegram channel](https://t.me/sstp_shield_softether) and
+giveaways. Type one under **Subscription → Have a promo code?**. Each code
+works once per account.
+
+### Can I buy access for cash?
+
+In some places trusted resellers sell activation codes for cash. A code's days
+start when you first use it.
 
 ### Can I use my access on another device?
 
