@@ -14,7 +14,7 @@ set of servers. A subscription gives you everything.
 | Country choice | — | Yes |
 | Auto-switch | Yes, with a short pause before each switch | Instant |
 | **Try another server** | With a cooldown | Any time |
-| Regional pool (e.g. Turkmenistan) | — | Yes |
+| Regional pool | — | Yes |
 | Proxy sharing | — | Yes |
 | Devices | One at a time | One phone and one computer |
 
