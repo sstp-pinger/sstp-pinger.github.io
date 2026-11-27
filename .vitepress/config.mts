@@ -121,6 +121,7 @@ export default defineConfig({
             { text: 'Professional view', link: '/docs/guides/professional-view' },
             { text: 'Free plan', link: '/docs/guides/free-plan' },
             { text: 'Invite friends', link: '/docs/guides/invite-friends' },
+            { text: 'Your own servers', link: '/docs/guides/own-servers' },
             { text: 'Updates', link: '/docs/guides/updates' },
             { text: 'Command-line tool', link: '/docs/guides/cli' },
           ],
