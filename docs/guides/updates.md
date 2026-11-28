@@ -19,7 +19,7 @@ The portable zip cannot update itself: it opens the download page instead.
 | Installed from | To update |
 |---|---|
 | `.deb` | `sudo apt install ./sstp-shield-linux-x64.deb` with the new file |
-| Arch package | the same `sudo pacman -U …` command as for installing |
+| Arch package | download the new `.pkg.tar.zst`, then `sudo pacman -U ./sstp-shield-linux-x64.pkg.tar.zst` — the same commands as for [installing](/docs/guides/getting-started#arch-linux-and-derivatives) |
 | Tarball | extract the new version, then run `./tool/setup_privilege.sh ./sstp_shield` again |
 
 ## Command-line tool

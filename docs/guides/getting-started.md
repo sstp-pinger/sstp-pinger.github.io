@@ -60,8 +60,14 @@ to `/opt/sstp-shield`. To update, install the new `.deb` the same way.
 ### Arch Linux and derivatives
 
 ```bash
-sudo pacman -U https://github.com/sstp-pinger/sstp_shield_releases/releases/latest/download/sstp-shield-linux-x64.pkg.tar.zst
+cd /tmp
+curl -LO https://github.com/sstp-pinger/sstp_shield_releases/releases/latest/download/sstp-shield-linux-x64.pkg.tar.zst
+sudo pacman -U ./sstp-shield-linux-x64.pkg.tar.zst
 ```
+
+Download first, then install the file: `pacman -U` with a web address asks
+for a signature file, which this package doesn't have, and stops with
+`failed retrieving file '….sig'`.
 
 It works like the `.deb`: a menu entry, the `sstp-shield` command, and the
 setup done on every update. For DNS through the VPN, install `polkit` and run
@@ -73,7 +79,7 @@ sudo systemctl enable --now systemd-resolved
 ```
 
 The package is not in a repository, so `pacman -Syu` does not update it: run
-the same `pacman -U` for each new version. `sudo pacman -R sstp-shield`
+the same three commands for each new version. `sudo pacman -R sstp-shield`
 removes it.
 
 ### Other distributions (tarball)
