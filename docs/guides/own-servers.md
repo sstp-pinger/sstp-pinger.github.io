@@ -45,15 +45,25 @@ your browser and never reaches our website.
 - **New install or no subscription:** on the first screen, open
   **Use your own server**, type the host (and port, user, password if they
   aren't the defaults) or tap **Paste link**, then **Save and connect**.
-- **Professional view:** Connection → *Connect through* → **Custom node**
-  (on a phone: Settings → Custom node). Type a server and tap
-  **Save to My servers**, or **Paste link**.
+- **Professional view:** on the Connection screen, switch *Connect through*
+  to **Custom node** (on a phone it sits above the Connect button). The
+  server card is replaced by the server's fields: type one and tap
+  **Save to My servers**. Change a saved one and **Save changes** appears —
+  nothing is changed until you press it.
 
 ## My servers
 
-Saved servers are listed under **My servers**. Tap one to connect through it,
-tap the QR icon to share it — another phone's camera opens the link — or delete
-it. The shared link includes the server's password.
+On a computer, your saved servers sit on the right of the Connection screen;
+on a phone, under **Servers → Mine**. Each row shows how fast the server
+answered (**Ping** measures them all again). Tap a server to connect through
+it — the fields fill in and *Connect through* switches to it. The QR icon
+shares it (another phone's camera opens the link; the link includes the
+password), the bin deletes it, and **Undo** brings it back.
+
+**Auto-switch works on your own servers too.** With two or more saved, hold
+Connect or tap **Auto-switch**: SSTP Shield starts on the one you picked and,
+if it stops working, moves on to your other servers, fastest first, skipping
+any that didn't answer the last ping.
 
 Switching *Connect through* back to **Server list** returns to our servers;
 without a subscription that shows the first screen again.

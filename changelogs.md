@@ -8,7 +8,29 @@ outline: [2, 2]
 What changed in each version. Downloads for every version are on the
 [releases page](https://github.com/sstp-pinger/sstp_shield_releases/releases).
 
-## 3.9.0 <Badge type="tip" text="latest" />
+## 3.10.0 <Badge type="tip" text="latest" />
+
+<small>November 28, 2026</small>
+
+- **New:** **[your own servers](/docs/guides/own-servers), free forever** —
+  no account or subscription. Tap an `sstp://` link, or a shared
+  `sstp-pinger.github.io/add#…` link, and the app asks **Add this server?**
+  It never connects by itself.
+- **New:** **My servers.** Saved servers with their ping, a QR code to share
+  each one, delete with **Undo**, and **Paste link**. On a computer they sit
+  on the right of the Connection screen; on a phone under **Servers → Mine**.
+- **New:** **auto-switch on your own servers.** With two or more saved, the
+  app moves to the next fastest one when yours stops working.
+- **New:** **Use your own server** on the first screen, so you can connect
+  without starting a trial.
+- **Changed:** *Connect through* is now at the top of the Connection screen.
+  In **Custom node** mode the server card is replaced by the server's fields,
+  with **Save changes** when you edit a saved one.
+- **Fixed:** an "update available" notification for the version you already
+  have.
+- **Fixed:** the server tabs no longer overflow on narrow phones.
+
+## 3.9.0
 
 <small>November 25, 2026</small>
 
