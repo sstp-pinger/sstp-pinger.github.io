@@ -140,13 +140,8 @@ export default defineConfig({
       { icon: 'github', link: releases },
       {
         icon: telegramIcon,
-        link: 'https://t.me/sstp_shield_softether',
-        ariaLabel: 'Telegram channel',
-      },
-      {
-        icon: telegramIcon,
         link: 'https://t.me/sstp_shield',
-        ariaLabel: 'Telegram',
+        ariaLabel: 'Telegram channel',
       },
     ],
     search: { provider: 'local' },

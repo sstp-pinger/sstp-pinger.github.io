@@ -32,7 +32,7 @@ channels or groups.
 1. Installs SSTP Shield and opens it once — the free trial starts by itself.
 2. Either types your code in the app under **Have an invite code?** — no
    Telegram needed — or opens your link, joins our
-   [channel](https://t.me/sstp_shield_softether) in the bot and sends it their
+   [channel](https://t.me/sstp_shield) in the bot and sends it their
    username (**Settings → Account → Username**).
 
 The days show up in the app right away.
@@ -54,7 +54,7 @@ matter.
 week old or isn't a trial.
 
 **The bot can't see my friend in the channel.** They must join
-[the channel](https://t.me/sstp_shield_softether) first, then press **I joined**
+[the channel](https://t.me/sstp_shield) first, then press **I joined**
 again.
 
 Anything else: [contact us](/contact).

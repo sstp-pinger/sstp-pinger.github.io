@@ -23,7 +23,7 @@ set of servers. A subscription gives you everything.
 When the trial ends, the app opens with **Free forever** at the top.
 
 - **Join our channel.** Press **Join the channel in Telegram**. Our bot opens:
-  join the [channel](https://t.me/sstp_shield_softether), press **I joined**,
+  join the [channel](https://t.me/sstp_shield), press **I joined**,
   and come back to the app — it switches over by itself.
 - **Use a friend's invite code.** Under **Have an invite code?**, type the code
   a friend sent you. This needs no Telegram at all.

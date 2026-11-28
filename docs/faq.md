@@ -93,7 +93,7 @@ they first subscribe.
 
 ### Do you have promo codes?
 
-Sometimes — in our [Telegram channel](https://t.me/sstp_shield_softether) and
+Sometimes — in our [Telegram channel](https://t.me/sstp_shield) and
 giveaways. Type one under **Subscription → Have a promo code?**. Each code
 works once per account.
 

@@ -10,8 +10,7 @@ Questions, problems, payments or feedback — write to:
 
 Or reach us on Telegram:
 
-<p class="contact-mail"><a href="https://t.me/sstp_shield_softether">Telegram channel</a></p>
-<p class="contact-mail"><a href="https://t.me/sstp_shield">Telegram</a></p>
+<p class="contact-mail"><a href="https://t.me/sstp_shield">Telegram channel</a></p>
 
 ## Reporting a problem
 
